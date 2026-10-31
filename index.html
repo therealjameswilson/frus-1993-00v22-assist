@@ -136,7 +136,7 @@
         <div class="meta"><span>Status</span><strong>Being Researched</strong></div>
         <div class="meta"><span>Official ID</span><strong>frus1993-00v22</strong></div>
         <div class="meta"><span>Era</span><strong>1993-2000</strong></div>
-        <div class="meta"><span>Data tables</span><strong>22</strong></div>
+        <div class="meta"><span>Dataset rows</span><strong data-table-count>22</strong></div>
       </section>
 
       <section>
@@ -149,6 +149,10 @@
 
       <section id="dataset">
         <div class="section-head"><h2>Research Dataset</h2><button class="button secondary dark" data-export>Export JSON</button></div>
+        <p>October 30, 2026 releases are integrated below as pending compiler selections. Historical contact dates differ from release and transmission dates. <a href="reports/october-30-release-review.md">Review scope, chronology and evidence gaps</a>.</p>
+        <label for="dataset-search"><strong>Search sources, documents and chronology</strong></label>
+        <input id="dataset-search" type="search" placeholder="Search a person, subject, case or document ID" style="display:block;width:100%;max-width:42rem;padding:.75rem;margin:.5rem 0;font:inherit" />
+        <p id="dataset-search-count" aria-live="polite"></p>
         <div class="tabs" role="tablist" aria-label="Research dataset tables">
           <button class="tab-button" type="button" data-tab="sources" aria-pressed="true">Sources</button>
           <button class="tab-button" type="button" data-tab="documents" aria-pressed="false">Documents</button>
@@ -166,7 +170,7 @@
 <tr><td>Europe companion workbench</td><td>Companion workbench</td><td>Use the richer existing workspace for volume-specific records and research notes.</td><td>Linked</td></tr></tbody></table>
         </div>
         <div class="table-wrap" data-panel="documents" hidden>
-          <table><thead><tr><th>Candidate bucket</th><th>Repository</th><th>Status</th><th>Action</th></tr></thead><tbody><tr><td>Official volume record and publication metadata</td><td>history.state.gov</td><td>Reference</td><td>Watch for title, status, and chapter updates.</td></tr>
+          <table><thead><tr><th>Document / date</th><th>Repository</th><th>Status</th><th>Action</th></tr></thead><tbody><tr><td>Official volume record and publication metadata</td><td>history.state.gov</td><td>Reference</td><td>Watch for title, status, and chapter updates.</td></tr>
 <tr><td>NARA catalog-visible candidate records</td><td>National Archives</td><td>Search queue</td><td>Export promising record descriptions and add file-unit identifiers.</td></tr>
 <tr><td>Presidential library meeting and daily-file leads</td><td>William J. Clinton Presidential Library research portal</td><td>Search queue</td><td>Check daily diary, staff files, and finding aids for dated contacts.</td></tr>
 <tr><td>Strobe Talbott FOIA cross-check set</td><td>State FOIA</td><td>Search queue</td><td>Compare manifest hits against volume lanes and source-note needs.</td></tr></tbody></table>
